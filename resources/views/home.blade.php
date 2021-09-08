@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('title', 'titolo pagina')
 @section('content')
-<div class="container">
+<div class="container bg-warning py-5">
     @foreach ($viaggi as $viaggio)
     <div class="row">
         <div class="col-12">
